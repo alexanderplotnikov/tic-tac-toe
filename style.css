@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 300px;
+    width: 300px;
+}
+.container > div {
+    display: table;
+    font-size: 64px;
+    border: solid 1px black;
+    text-align: center;
+}
